@@ -24,5 +24,5 @@ docker run --rm=true
 * Base image: nocsigroup/archlinux-aur:latest ([dockerfile][6])  
 * [Dockerfile][7]
 
-[1]: https://hub.docker.com/r/nocsigroup/odroidc2-linux/   
+[1]: https://hub.docker.com/r/nocsigroup/odroidc2-android/   
 [2]: https://docker.com 
