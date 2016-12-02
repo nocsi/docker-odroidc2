@@ -1,4 +1,4 @@
-FROM registry.nocsi.org/archlinux-aur:latest
+FROM nocsigroup/archlinux-aur:latest
 MAINTAINER nocsi <l@nocsi.com>
 
 RUN sed -i '/#\[multilib\]/,/#Include = \/etc\/pacman.d\/mirrorlist/ s/#//' /etc/pacman.conf
