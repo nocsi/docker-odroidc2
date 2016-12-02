@@ -1,6 +1,6 @@
-# nocsigroup/odroidc2-linux  
+# nocsigroup/odroidc2-android
 
-[`nocsigroup/odroidc2-linux`][1] is a [docker][2] image that bundles the following:  
+[`nocsigroup/odroidc2-android`][1] is a [docker][2] image that bundles the following:  
 * **[Linux 3.14.y-android][3]:**
 
 ## Details
