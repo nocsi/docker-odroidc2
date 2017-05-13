@@ -1,6 +1,6 @@
-# nocsigroup/odroidc2-uboot  
+# registry.nocsi.org/odroidc2-uboot  
 
-[`nocsigroup/odroidc2-uboot`][1] is a [docker][2] image that bundles the following:  
+[`registry.nocsi.org/odroidc2-uboot`][1] is a [docker][2] image that bundles the following:  
 * **[U-Boot 2015.01][3]:**
 
 ## Details
@@ -15,14 +15,14 @@ This image can easily be extended.
 ````
 docker run --rm=true 
         -v $(pwd)/out:/uboot/out \
-	nocsigroup/odroidc2-uboot:2015.01 
+	registry.nocsi.org/odroidc2-uboot:2015.01 
 ````
 
 ## Misc. Info 
 * Latest version: 2015.01   
-* Built on: 2016-12-02T09:30:58EST   
-* Base image: nocsigroup/archlinux-aur:latest ([dockerfile][6])  
+* Built on: 2017-05-12T21:12:58EDT   
+* Base image: registry.nocsi.org/archlinux-aur:latest ([dockerfile][6])  
 * [Dockerfile][7]
 
-[1]: https://hub.docker.com/r/nocsigroup/odroidc2-uboot/   
+[1]: https://hub.docker.com/r/registry.nocsi.org/odroidc2-uboot/   
 [2]: https://docker.com 

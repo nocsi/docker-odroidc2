@@ -12,15 +12,21 @@ build:
   script:
     - make check.env
     - make build
+  tags:
+    - shell
 
 test:
   stage: test
   script:
     - echo "test"
+  tags:
+    - shell
 
 release-image:
   stage: release
   script:
     - make release
+  tags:
+    - shell
   only:
     - master

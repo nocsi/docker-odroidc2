@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e -u -o pipefail
 
+targetcard=$1
+
 source ~/.bashrc
 pacman -Sy --noconfirm --noprogress 
 mkdir -p /uboot/src
@@ -13,3 +15,11 @@ ls fip/gxb/
 #cp fip/gxb/u-boot.bin /uboot/out
 cp sd_fuse/bl1.bin.hardkernel /uboot/out
 cp fip/gxb/u-boot.bin /uboot/out
+
+if [[ -n "$targetcard" ]]; then
+    cd sd_fuse
+    ./sd_fuzing.sh $targetcard
+else
+    echo "Build Only"
+fi
+
